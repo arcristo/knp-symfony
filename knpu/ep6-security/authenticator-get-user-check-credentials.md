@@ -27,7 +27,7 @@ And once again, I'll use my `Option`+`Enter` shortcut to create and set that pro
 [[[ code('30d1d3ec26') ]]]
 
 Now, it's real simple: return `$this->em->getRepository('AppBundle:User')->findOneBy()`
-with `email => $email`:
+with `email => $username`:
 
 [[[ code('6f33938c44') ]]]
 
